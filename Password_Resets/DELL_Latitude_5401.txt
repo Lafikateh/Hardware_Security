@@ -1,4 +1,4 @@
 Fill the area between 0x45000 and 0x48FFF with 0xFF.
 This area belongs to the Embedded Controller, normally not accessible unless running in System Management Mode(SMM).
 This is where the hashed password and other information like the service tag are stored.
-After flashing, the modified firmware the device will power on into manufacturing mode.
+After flashing the modified firmware, the device will power on into manufacturing mode.
